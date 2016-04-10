@@ -1,4 +1,4 @@
-State,"Production, U.S. Share","Production, Rank","Consumption per Capita, Million Btu","Consumption per Capita, Rank","Expenditures per Capita, Dollars","Expenditures per Capita, Rank",Federal offshore production is not included in the Production Shares.
+State,"Production, U.S. Share","Production, Rank","Consumption per Capita, Million Btu","Consumption per Capita, Rank","Expenditures per Capita, Dollars","Expenditures per Capita, Rank"
 ND,3.2,8,813,4,10540,1
 AK,1.9,13,826,3,9596,2
 WY,11.3,2,918,1,9358,3
@@ -49,4 +49,4 @@ CA,2.9,11,200,48,3563,47
 AZ,0.7,28,213,44,3434,48
 DC,0.0,51,263,36,3378,49
 FL,0.7,31,208,46,3375,50
-NY,1.1,22,184,50,3350,51 
+NY,1.1,22,184,50,3350,51
