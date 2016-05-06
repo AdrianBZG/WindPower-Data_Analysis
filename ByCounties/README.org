@@ -1,0 +1,31 @@
+* Por comarcas
+USA tiene 3.144 Counties(Comarcas) algunas son especiales
+
+- https://www.census.gov/geo/reference/ua/urban-rural-2010.html
+
+Los datos son de 2010 son antiguos para los datos de poblacion pero tampoco varian demasiado con algunos que he comparado.
+
+Los datos de las turbinas, estan geolocalizadas. Se puede añadir a la app pero son demasiadas.
+
+- http://energy.usgs.gov/OtherEnergy/WindEnergy.aspx#4312358-data
+
+Datos energeticos bastante completos
+
+- http://www.eia.gov/electricity/data/eia861/index.html
+- http://www.eia.gov/tools/faqs/faq.cfm?id=807&t=1
+
+Pagina de partida
+
+- https://www.data.gov/open-gov/
+
+
+
+Class	Annual Average Wind Speed	Extreme 50-Year Gust	Turbulence Intensity
+Class 1 – High Wind	10 m/s	70 m/s A: 0.210
+			B: 0.180
+Class 2 – Medium Wind	8.5 m/s	59.6 m/s	A: 0.226
+			B: 0.191
+Class 3 – Low Wind	7.5 m/s	52.5 m/s	A: 0.240
+			B: 0.200
+Class 4 – Very Low Wind	6 m/s	42 m/s	A: 0.270
+			B: 0.220
