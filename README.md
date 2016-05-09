@@ -15,7 +15,6 @@ Bla bla bla
 - GeoJSON <br>
 - Karma + Mocha + Chai + Sinon (not implemented yet)<br>
 - Views (ExpressJS) (not implemented yet)<br>
-- ECMA 6 <br>
 - Version control + Team collaboration (Git) <br>
 
 ## LECTURE
