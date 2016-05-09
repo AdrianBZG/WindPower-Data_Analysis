@@ -1,6 +1,6 @@
 # windPower Project - Renewable Energy Data Analysis 
 
-![windPower Logo](https://raw.githubusercontent.com/AdrianBZG/windPower-Project/master/resources/images/Logo.jpg?token=AH5FglpAzqIPjqeEqwPxcE33HtS66Pc1ks5XOZsVwA%3D%3D "windPower Logo")<br>
+![windPower Logo](https://raw.githubusercontent.com/AdrianBZG/windPower_Project/master/resources/images/Logo.jpg?token=AH5FglpAzqIPjqeEqwPxcE33HtS66Pc1ks5XOZsVwA%3D%3D "windPower Logo")<br>
 [![Build Status](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files.svg?branch=master)](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files) [Not implemented yet]
 
 
