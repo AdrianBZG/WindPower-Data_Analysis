@@ -3,11 +3,6 @@
 ![windPower Logo](https://raw.githubusercontent.com/AdrianBZG/windPower_Project/master/resources/images/Logo.jpg?token=AH5FglOUGyvXG6C9jT31mos8pIRasAv3ks5XOZ3DwA%3D%3D "windPower Logo")<br>
 [![Build Status](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files.svg?branch=master)](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files) [Not implemented yet]
 
-
-## Presentation
-
-[presentation](https://docs.google.com/presentation/d/11JG15e0-nbzbCHouQig1VCBPeA0XPWNmxdyQLQ8EBww/edit#slide=id.p)
-
 ## INFO:
 
 ### What is windPower?
@@ -22,6 +17,10 @@ Bla bla bla
 - Views (ExpressJS) (not implemented yet)<br>
 - ECMA 6 <br>
 - Version control + Team collaboration (Git) <br>
+
+## LECTURE
+
+[Lecture link](https://docs.google.com/presentation/d/11JG15e0-nbzbCHouQig1VCBPeA0XPWNmxdyQLQ8EBww/edit#slide=id.p)
 
 ## DEVELOPERS
 
