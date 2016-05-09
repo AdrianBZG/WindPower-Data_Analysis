@@ -10,7 +10,7 @@
 
 Bla bla bla
 
-## USED TECHNOLOGIES/INFO
+## USED TECHNOLOGIES
 - ECMA 6 <br>
 - LeafletJS <br>
 - GeoJSON <br>
@@ -26,14 +26,14 @@ Bla bla bla
   - [Personal page](http://adrianbzg.github.io)
   
 ### Eleazar Díaz Delgado
-  - Email: abc@ull.edu.es
-  - [Personal page](http://abc.github.io)
+  - Email: eleazardzdo@gmail.com
+  - [Personal page](http://elediaz.github.io/)
   
 ### Ruymán Rodríguez Martín
-  - Email: abc@ull.edu.es
-  - [Personal page](http://abc.github.io)
+  - Email: alu0100845235@ull.edu.es
+  - [Personal page](http://alu0100845235.github.io/)
   
 ### Rudolf Cicko
-  - Email: abc@ull.edu.es
-  - [Personal page](http://abc.github.io)
+  - Email: alu0100824780@ull.edu.es
+  - [Personal page](http://alu0100824780.github.io/)
 
