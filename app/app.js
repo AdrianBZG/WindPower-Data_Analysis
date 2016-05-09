@@ -16,6 +16,7 @@ info.update = function (props) {
                                                               : 'Mantegan el ratón sobre un estado');
 };
 
+
 info.addTo(map);
 
 
