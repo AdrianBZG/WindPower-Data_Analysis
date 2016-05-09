@@ -1,0 +1,1 @@
+De aqui sacaremos los datos que necesitamos para descartar lugares, calcular diferenciales de produccion de energia...etc.
