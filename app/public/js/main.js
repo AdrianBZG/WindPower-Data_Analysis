@@ -85,7 +85,7 @@ geojson = L.geoJson(statesData, {
     onEachFeature: onEachFeature
 }).addTo(map);
 
-map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+//map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
 
 
 var legend = L.control({position: 'bottomright'});
