@@ -5,6 +5,9 @@ var watch = require('gulp-watch'); // Watch to have background tasks executing w
 var karma = require('gulp-karma');  // Include Karma
 var shell = require('gulp-shell');
 
+gulp.task('default', [], function() {
+    gulp.start('server');
+});
 
 gulp.task('test', function() {
   return gulp.src([])

@@ -11,6 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "express": "^4.13.4",
+    "express-ejs-layouts": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-karma": "0.0.5",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.5",
+    "karma": "^0.13.22",
+    "path": "^0.12.7"
   }
 }
