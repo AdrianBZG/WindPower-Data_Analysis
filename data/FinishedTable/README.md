@@ -5,7 +5,7 @@ partición (Percentage split) de 40 % y que por lo tanto, se entrena con los 20 
 con los 30 últimos, se obtienen los siguientes:
 
 ## Árbol resultante
-![](J48_TreeResult.jpg)
+![](j48_TreeResult.jpg)
 
 
 ## Precisión
