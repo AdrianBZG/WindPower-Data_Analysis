@@ -11,10 +11,33 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Información</h4>' + (props ?
-                                                              '<b>' + props.NAME + '</b><br />' + props.density + ' Value'
+    var stateInfo = getStateInfo(props ? props.NAME : 0);
+
+    if (stateInfo)
+      var all = "<b>State: </b>" + stateInfo["State"] + "<br>" +
+              "<b>Land: </b>" + stateInfo["Land km2"] + " km² <br>" +
+              "<b>Forest Cover: </b>" + stateInfo["Forest Cover (%)"] + " % <br>" +
+              "<b>Average Temp: </b>" + stateInfo["Average Temp (C)"] + " C <br>" +
+              "<b>Average elevation: </b>" + stateInfo["Average elevation"] + " m <br>" +
+              "<b>Difference elevation: </b>" + stateInfo["Difference elevation"] + " m <br>" +
+              "<b>Public land: </b>" + stateInfo["% that is Public Land"] + " %<br>" +
+              "<b>Average Wind Speed: </b>" + stateInfo["Average Wind Speed (mph)"] + " mph <br>" +
+              "<b>Nuclear Production: </b>" + stateInfo["Nuclear Year to Date (MW"]["h)"] + " MWh<br>";
+              //"h)": 41951382
+    this._div.innerHTML = '<h4>Información' + (props ?
+                                                              '<b> ' + props.NAME + '</h4></b><br/>' + all
                                                               : 'Mantegan el ratón sobre un estado');
 };
+
+
+function getStateInfo (state) {
+  for (var i in windPowerData) {
+    console.log(windPowerData[i]);
+    if (windPowerData[i]["State"] == state) {
+      return windPowerData[i];
+    }
+  }
+}
 
 
 info.addTo(map);
