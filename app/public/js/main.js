@@ -13,7 +13,8 @@ info.onAdd = function (map) {
 info.update = function (props) {
     var stateInfo = getStateInfo(props ? props.NAME : 0);
 
-    if (stateInfo)
+    if (stateInfo) {
+      var possibleExtraWindProd = calculateWindEnergyProduction (stateInfo);
       var all = "<b>State: </b>" + stateInfo["State"] + "<br>" +
               "<b>Land: </b>" + stateInfo["Land km2"] + " km² <br>" +
               "<b>Forest Cover: </b>" + stateInfo["Forest Cover (%)"] + " % <br>" +
@@ -22,8 +23,11 @@ info.update = function (props) {
               "<b>Difference elevation: </b>" + stateInfo["Difference elevation"] + " m <br>" +
               "<b>Public land: </b>" + stateInfo["% that is Public Land"] + " %<br>" +
               "<b>Average Wind Speed: </b>" + stateInfo["Average Wind Speed (mph)"] + " mph <br>" +
-              "<b>Nuclear Production: </b>" + stateInfo["Nuclear Year to Date (MW"]["h)"] + " MWh<br>";
-              //"h)": 41951382
+              "<b>Nuclear Production: </b>" + stateInfo["Nuclear Year to Date (MW"]["h)"] + " MWh<br>" +
+              "<b>Possible Extra Wind Prod.: </b>" + possibleExtraWindProd[0] + " MW <br>" +
+              "<b> Nuclear Energy Saving: </b>" + possibleExtraWindProd[1] + " MW <br>";
+
+    }
     this._div.innerHTML = '<h4>Información' + (props ?
                                                               '<b> ' + props.NAME + '</h4></b><br/>' + all
                                                               : 'Mantegan el ratón sobre un estado');
@@ -32,10 +36,28 @@ info.update = function (props) {
 
 function getStateInfo (state) {
   for (var i in windPowerData) {
-    console.log(windPowerData[i]);
+    //console.log(windPowerData[i]);
     if (windPowerData[i]["State"] == state) {
       return windPowerData[i];
     }
+  }
+}
+
+function calculateWindEnergyProduction (stateInfo) {
+  if (stateInfo) {
+    var tDisp = stateInfo["Land km2"] - (stateInfo["Land km2"] * (stateInfo["% that is Public Land"] / 100));     // km² disponibles
+    const pMed = 62.55;
+    const pEpe = 308.3715;             // producción por parque eólico en KWh.
+    const ePe = 40;                    // Extensión media de un parque eólico en km².
+    var cPe = tDisp / ePe;
+    var posProd = cPe * pEpe * 24;   // Posible producción anual de energía eólica, es decir del viento.
+    var currentAnnualProd = stateInfo["Installed Wind Capacity (MW)"];
+    var posEnergy = posProd - currentAnnualProd;
+    var currentAnnualNuclearProd = stateInfo["Nuclear Year to Date (MW"]["h)"];
+    var nuclearEnergySave = currentAnnualNuclearProd - posEnergy;
+
+    var result = [posEnergy, Math.abs(nuclearEnergySave)];
+    return result;
   }
 }
 
@@ -46,24 +68,36 @@ info.addTo(map);
 
 // get color depending on population density value
 function getColor(d) {
-    return d > 1000 ? '#800026' :
-        d > 500 ? '#BD0026' :
-        d > 200 ? '#E31A1C' :
-        d > 100 ? '#FC4E2A' :
-        d > 50 ? '#FD8D3C' :
-        d > 20 ? '#FEB24C' :
-        d > 10 ? '#FED976' :
+    return d > 150000000 ? '#800026' :
+        d > 110000000 ? '#BD0026' :
+        d > 80000000 ? '#E31A1C' :
+        d > 60000000 ? '#FC4E2A' :
+        d > 40000000 ? '#FD8D3C' :
+        d > 20000000 ? '#FEB24C' :
+        d > 0 ? '#FED976' :
         '#FFEDA0';
 }
 
+var mayor = 0;
+var menor = 999999999;
+
 function style(feature) {
+    var result = calculateWindEnergyProduction(getStateInfo(feature.properties.NAME ? feature.properties.NAME : null));
+    if (result) {
+      result = result[0];
+      if (result > mayor)
+        mayor = result;
+      if (result < menor)
+        menor = result;
+    }
+    console.log("Mayor: " + mayor + " y menor: " + menor);
     return {
         weight: 2,
         opacity: 1,
         color: 'white',
         dashArray: '3',
         fillOpacity: 0.7,
-        fillColor: getColor(feature.properties.density)
+        fillColor: getColor(result)
     };
 }
 
@@ -116,7 +150,7 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        grades = [0, 20000000, 40000000, 60000000, 80000000, 110000000, 150000000, 200000000],
         labels = [],
         from, to;
 

@@ -10,7 +10,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 14.7,
    "Nuclear Year to Date (MW": {
       "h)": 41951382
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Alaska",
@@ -23,7 +24,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.35,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 62
 },
  {
    "State": "Arizona",
@@ -36,7 +38,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.92,
    "Nuclear Year to Date (MW": {
       "h)": 32525595
-   }
+   },
+   "Installed Wind Capacity (MW)": 268
 },
  {
    "State": "Arkansas",
@@ -49,7 +52,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.44,
    "Nuclear Year to Date (MW": {
       "h)": 13837794
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "California",
@@ -62,7 +66,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 13.54,
    "Nuclear Year to Date (MW": {
       "h)": 18505385
-   }
+   },
+   "Installed Wind Capacity (MW)": 6108
 },
  {
    "State": "Colorado",
@@ -75,7 +80,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 20.16,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 2992
 },
  {
    "State": "Connecticut",
@@ -88,7 +94,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 13.97,
    "Nuclear Year to Date (MW": {
       "h)": 17410917
-   }
+   },
+   "Installed Wind Capacity (MW)": 5
 },
  {
    "State": "Delaware",
@@ -101,7 +108,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 12.91,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 2
 },
  {
    "State": "Florida",
@@ -114,7 +122,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 14.63,
    "Nuclear Year to Date (MW": {
       "h)": 28121916
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Georgia",
@@ -127,7 +136,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.34,
    "Nuclear Year to Date (MW": {
       "h)": 33838462
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Hawaii",
@@ -140,7 +150,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 14.03,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 203
 },
  {
    "State": "Idaho",
@@ -153,7 +164,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 20.59,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 973
 },
  {
    "State": "Illinois",
@@ -166,7 +178,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.28,
    "Nuclear Year to Date (MW": {
       "h)": 97318795
-   }
+   },
+   "Installed Wind Capacity (MW)": 3842
 },
  {
    "State": "Indiana",
@@ -179,7 +192,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.84,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 1895
 },
  {
    "State": "Iowa",
@@ -192,7 +206,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.09,
    "Nuclear Year to Date (MW": {
       "h)": 5243446
-   }
+   },
+   "Installed Wind Capacity (MW)": 6212
 },
  {
    "State": "Kansas",
@@ -205,7 +220,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 19.3,
    "Nuclear Year to Date (MW": {
       "h)": 8630178
-   }
+   },
+   "Installed Wind Capacity (MW)": 3766
 },
  {
    "State": "Kentucky",
@@ -218,7 +234,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.26,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Louisiana",
@@ -231,7 +248,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 13.6,
    "Nuclear Year to Date (MW": {
       "h)": 15300736
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Maine",
@@ -244,7 +262,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.95,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 613
 },
  {
    "State": "Maryland",
@@ -257,7 +276,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 19.74,
    "Nuclear Year to Date (MW": {
       "h)": 14643325
-   }
+   },
+   "Installed Wind Capacity (MW)": 190
 },
  {
    "State": "Massachusetts",
@@ -270,7 +290,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.76,
    "Nuclear Year to Date (MW": {
       "h)": 4994806
-   }
+   },
+   "Installed Wind Capacity (MW)": 107
 },
  {
    "State": "Michigan",
@@ -283,7 +304,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.5,
    "Nuclear Year to Date (MW": {
       "h)": 29333786
-   }
+   },
+   "Installed Wind Capacity (MW)": 1531
 },
  {
    "State": "Minnesota",
@@ -296,7 +318,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.51,
    "Nuclear Year to Date (MW": {
       "h)": 12038606
-   }
+   },
+   "Installed Wind Capacity (MW)": 3235
 },
  {
    "State": "Mississippi",
@@ -309,7 +332,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.19,
    "Nuclear Year to Date (MW": {
       "h)": 11714588
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Missouri",
@@ -322,7 +346,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 19.31,
    "Nuclear Year to Date (MW": {
       "h)": 10440082
-   }
+   },
+   "Installed Wind Capacity (MW)": 459
 },
  {
    "State": "Montana",
@@ -335,7 +360,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 21.03,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 665
 },
  {
    "State": "Nebraska",
@@ -348,7 +374,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.51,
    "Nuclear Year to Date (MW": {
       "h)": 10324728
-   }
+   },
+   "Installed Wind Capacity (MW)": 890
 },
  {
    "State": "Nevada",
@@ -361,7 +388,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.43,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 152
 },
  {
    "State": "New Hampshire",
@@ -374,7 +402,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.13,
    "Nuclear Year to Date (MW": {
       "h)": 9484204
-   }
+   },
+   "Installed Wind Capacity (MW)": 185
 },
  {
    "State": "New Jersey",
@@ -387,7 +416,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 14.33,
    "Nuclear Year to Date (MW": {
       "h)": 33261760
-   }
+   },
+   "Installed Wind Capacity (MW)": 9
 },
  {
    "State": "New Mexico",
@@ -400,7 +430,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.82,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 1080
 },
  {
    "State": "New York",
@@ -413,7 +444,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.57,
    "Nuclear Year to Date (MW": {
       "h)": 44602871
-   }
+   },
+   "Installed Wind Capacity (MW)": 1749
 },
  {
    "State": "North Carolina",
@@ -426,7 +458,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.99,
    "Nuclear Year to Date (MW": {
       "h)": 42096761
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "North Dakota",
@@ -439,7 +472,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.8,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 2143
 },
  {
    "State": "Ohio",
@@ -452,7 +486,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.16,
    "Nuclear Year to Date (MW": {
       "h)": 17376736
-   }
+   },
+   "Installed Wind Capacity (MW)": 443
 },
  {
    "State": "Oklahoma",
@@ -465,7 +500,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.46,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 5184
 },
  {
    "State": "Oregon",
@@ -478,7 +514,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 16.38,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 3153
 },
  {
    "State": "Pennsylvania",
@@ -491,7 +528,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.42,
    "Nuclear Year to Date (MW": {
       "h)": 80479752
-   }
+   },
+   "Installed Wind Capacity (MW)": 1340
 },
  {
    "State": "Rhode Island",
@@ -504,7 +542,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 14.91,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 9
 },
  {
    "State": "South Carolina",
@@ -517,7 +556,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.88,
    "Nuclear Year to Date (MW": {
       "h)": 53156320
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "South Dakota",
@@ -530,7 +570,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 21.32,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 977
 },
  {
    "State": "Tennessee",
@@ -543,7 +584,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 17.43,
    "Nuclear Year to Date (MW": {
       "h)": 24960472
-   }
+   },
+   "Installed Wind Capacity (MW)": 29
 },
  {
    "State": "Texas",
@@ -556,7 +598,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.55,
    "Nuclear Year to Date (MW": {
       "h)": 39354677
-   }
+   },
+   "Installed Wind Capacity (MW)": 17713
 },
  {
    "State": "Utah",
@@ -569,7 +612,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.26,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 327
 },
  {
    "State": "Vermont",
@@ -582,7 +626,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.07,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 119
 },
  {
    "State": "Virginia",
@@ -595,7 +640,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 19.32,
    "Nuclear Year to Date (MW": {
       "h)": 28060358
-   }
+   },
+   "Installed Wind Capacity (MW)": 0
 },
  {
    "State": "Washington",
@@ -608,7 +654,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 15.03,
    "Nuclear Year to Date (MW": {
       "h)": 8160912
-   }
+   },
+   "Installed Wind Capacity (MW)": 3075
 },
  {
    "State": "West Virginia",
@@ -621,7 +668,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.72,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 583
 },
  {
    "State": "Wisconsin",
@@ -634,7 +682,8 @@ var windPowerData = [
    "Average Wind Speed (mph)": 18.4,
    "Nuclear Year to Date (MW": {
       "h)": 10008183
-   }
+   },
+   "Installed Wind Capacity (MW)": 648
 },
  {
    "State": "Wyoming",
@@ -647,6 +696,7 @@ var windPowerData = [
    "Average Wind Speed (mph)": 20.88,
    "Nuclear Year to Date (MW": {
       "h)": 0
-   }
+   },
+   "Installed Wind Capacity (MW)": 1410
 }
 ]
