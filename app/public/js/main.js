@@ -46,6 +46,11 @@ function getStateInfo (state) {
         if (windPowerData[i]["State"] == state) {
             return windPowerData[i];
         }
+        if (windPowerData[i]["Pais"] == state) {
+            console.log(windPowerData[i]);
+
+            return windPowerData[i];
+        }
     }
 }
 
@@ -147,6 +152,12 @@ geojson = L.geoJson(statesData, {
     style: style,
     onEachFeature: onEachFeature
 }).addTo(map);
+
+L.geoJson(europe, {
+    style: style,
+    onEachFeature: onEachFeature
+}).addTo(map);
+
 
 //map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
 
