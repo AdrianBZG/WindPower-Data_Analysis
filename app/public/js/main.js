@@ -1,7 +1,7 @@
 
 var map = L.map('map').setView([37.8, -96], 4);
 
-var mapboxAccessToken = "pk.eyJ1IjoiZWxlYXphcmRkIiwiYSI6ImNpbnZ0eDF3ZDAwbnZ3N2tsdTU2eWl1bGUifQ.bv7o-Y34GZPHIgDJmN94rg"
+var mapboxAccessToken = "pk.eyJ1IjoiZWxlYXphcmRkIiwiYSI6ImNpbnZ0eDF3ZDAwbnZ3N2tsdTU2eWl1bGUifQ.bv7o-Y34GZPHIgDJmN94rg";
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken, {
     id: 'mapbox.light'
