@@ -1,6 +1,6 @@
 # windPower Project - Renewable Energy Data Analysis and Estimation
 
-![windPower Logo](resources/images/logo.png)<br>
+![windPower Logo](resources/images/Logo.png)<br>
 [![Build Status](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files.svg?branch=master)](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files) [Not implemented yet]
 
 ## INFO:
