@@ -19,5 +19,8 @@
     "gulp-watch": "^4.3.5",
     "karma": "^0.13.22",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "node-bayes": "^1.1.0"
   }
 }

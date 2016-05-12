@@ -39,7 +39,6 @@ info.update = function (props) {
                                                : '<br>Mantegan el ratón sobre un estado');
 };
 
-
 function getStateInfo (state) {
     for (var i in windPowerData) {
         //console.log(windPowerData[i]);
@@ -74,7 +73,6 @@ function calculateWindEnergyProduction (stateInfo) {
 
 
 info.addTo(map);
-
 
 
 // get color depending on population density value
@@ -185,3 +183,67 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+$(document).ready( function () {
+  /* Request AJAX para que se calcule la tabla */
+  $("#btnCalcular").click( function () {
+      //var value = [251470,9.2,5.6,2044,3265,55.9,20.88,0];
+      //var value = [0,0,0,0,0,0,0,0];
+      try {
+        value = [
+          $("#Land").val ()? parseFloat($("#Land").val ()) : 0,
+          $("#ForestCover").val ()? parseFloat($("#ForestCover").val ()) : 0,
+          $("#AverageTemp").val ()? parseFloat($("#AverageTemp").val ()) : 0,
+          $("#AverageElevation").val ()? parseFloat($("#AverageElevation").val ()) : 0,
+          $("#DifferenceElevation").val ()? parseFloat($("#DifferenceElevation").val ()) : 0,
+          $("#PublicLand").val ()? parseFloat($("#PublicLand").val ()) : 0,
+          $("#AverageWindSpeed").val ()? parseFloat($("#AverageWindSpeed").val ()) : 0,
+          $("#NuclearProduction").val ()? parseFloat($("#NuclearProduction").val ()) : 0
+        ];
+
+        // Buscar valores NaN y sustituir por cero
+        for (i = 0; i < value.length; i++) {
+          isNaN(value[i])? value[i] = 0 : null;
+        }
+
+        $.get("/naive-bayes",
+          { data: value },
+          function (data) {
+            //$("#resultado").html (data.result);
+            $("#naivebayes").removeClass ("panel-primary");
+            if (data.result == "No") {
+              $("#naivebayes").addClass ("panel-danger");
+            } else {
+              $("#naivebayes").addClass ("panel-success");
+            }
+          },
+          'json'
+        );
+      } catch (err) {
+        // Limpiar el div de resultadi
+        $("#naivebayes").removeClass ("panel-primary");
+        $("#naivebayes").removeClass ("panel-success");
+        $("#naivebayes").addClass ("panel-danger");
+      }
+
+
+  });
+
+  $("#btnLimpiar").click( function () {
+      // Limpiar todos los campos de texto
+      $("#Land").val ("");
+      $("#ForestCover").val ("");
+      $("#AverageTemp").val ("");
+      $("#AverageElevation").val ("");
+      $("#DifferenceElevation").val ("");
+      $("#PublicLand").val ("");
+      $("#AverageWindSpeed").val ("");
+      $("#NuclearProduction").val ("");
+
+      // Limpiar el div de resultadi
+      $("#naivebayes").removeClass ("panel-danger");
+      $("#naivebayes").removeClass ("panel-success");
+      $("#naivebayes").addClass ("panel-primary");
+
+  });
+});
