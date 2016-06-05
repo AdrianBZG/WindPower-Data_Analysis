@@ -1,2 +1,0 @@
-Usaremos estos datos para determinar las condiciones optimas donde se puede instalar un aerogenerador en cada ciudad de EEUU, segun sus datos
-meteorologicos (velocidad del viento, etc.)

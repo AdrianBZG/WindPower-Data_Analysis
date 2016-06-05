@@ -1,6 +1,0 @@
-Pais,Land km2,Forest Cover (%),Average Temp (C),Average elevation,Difference elevation,% that is Public Land,Average Wind Speed (mph),Installed Wind Capacity (MW),Nuclear Year to Date (MW/h),RESULTADO WEKA
-España,504645,36.8,13.3,660,3718,17.1,9.8967,23025,54740,NO
-Francia,675417,36.76,10.7,375,4810,20,Desconocido,10358,416800,NO
-Alemania,357021,31.7,8.5,263,2962,15.4,Desconocido,44947,86810.32,SI
-Inglaterra,243610,11.76,8.45,162,1344,23.5,Desconocido,13603,63894.54,SI
-Greece,131940,28.43,15.4,498,2919,22.6,Desconocido,2152,0,NO

@@ -1,5 +1,0 @@
-# Ignore modules from NodeJS
-node_modules
-
-# Ignoring temp files
-*~
