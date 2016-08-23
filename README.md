@@ -1,7 +1,6 @@
-# windPower Project - Renewable Energy Data Analysis and Estimation
+# windPower - Renewable Energy Data Analysis and Estimation
 
 ![windPower Logo](resources/images/Logo.png)<br>
-[![Build Status](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files.svg?branch=master)](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files) [Not implemented yet]
 
 ## INFO:
 
@@ -15,19 +14,18 @@ Also provides data visualization with web deployment using LeafletJS.
 - ECMA 6 <br>
 - LeafletJS <br>
 - GeoJSON <br>
-- Karma + Mocha + Chai + Sinon (not implemented yet)<br>
 - Views (ExpressJS) (not implemented yet)<br>
 - Version control + Team collaboration (Git) <br>
 
 ## LECTURE
 
-[Lecture link](https://docs.google.com/presentation/d/11JG15e0-nbzbCHouQig1VCBPeA0XPWNmxdyQLQ8EBww/edit#slide=id.p)
+[Lecture link](http://adrianbazaga.info/pdf/WindPower_Lecture.pdf)
 
 ## DEVELOPERS
 
 ### Adrián Rodríguez Bazaga
-  - Email: arodriba@ull.edu.es
-  - [Personal page](http://adrianbzg.github.io)
+  - Email: arodriba@ull.es
+  - [Personal page](http://www.adrianbazaga.info/)
 
 ### Eleazar Díaz Delgado
   - Email: eleazardzdo@gmail.com
