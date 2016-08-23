@@ -7,7 +7,9 @@
 
 ### What is windPower?
 
-Bla bla bla
+This is a Data Analysis tool/project to estimate whether a US state can increase it's wind energy production (Using the difference between current wind energy produced and the possible wind energy that can produce if you build more Wind farms; using available terrain data), including possible nuclear energy use reduction and some other info.
+
+Also provides data visualization with web deployment using LeafletJS.
 
 ## USED TECHNOLOGIES
 - ECMA 6 <br>
